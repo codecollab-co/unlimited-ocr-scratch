@@ -28,7 +28,9 @@ Baidu's original reference implementation and published weights:
 [huggingface.co/baidu/Unlimited-OCR](https://huggingface.co/baidu/Unlimited-OCR) (MIT licensed).
 This repository's code is independently written from reading that source and the paper
 (see the [Stages](#stages) section below for what was studied) — no code is copied from
-the reference; see [LICENSE](LICENSE) for how that provenance affects licensing.
+the reference. This repo is [MIT licensed](LICENSE) itself; model weights loaded by this
+code (not included in this repository) remain subject to Baidu's own license terms for
+`baidu/Unlimited-OCR` on Hugging Face.
 
 Unlimited-OCR itself builds on **DeepSeek-OCR** (arXiv:[2510.18234](https://arxiv.org/abs/2510.18234),
 Wei, Sun & Li — for the DeepEncoder and MoE decoder it extends) and

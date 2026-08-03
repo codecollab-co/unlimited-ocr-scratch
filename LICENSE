@@ -19,11 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-This is an independent, clean-room reimplementation of the architecture
-described in the Unlimited OCR paper (see README for citation) and does not
-contain code copied from Baidu's reference implementation. Model weights
-loaded by this code (not included in this repository) remain subject to
-Baidu's own license terms for `baidu/Unlimited-OCR` on Hugging Face.

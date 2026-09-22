@@ -1,0 +1,25 @@
+<svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Loading">
+  <style>
+    .dot{ fill:#0E9C97; }
+    .ring{
+      fill:none; stroke:#0E9C97; stroke-width:2;
+      transform-box:fill-box; transform-origin:center;
+      transform:scale(0.35); opacity:0.9;
+      animation:diligo-pulse 1.8s cubic-bezier(0.2,0.6,0.4,1) infinite;
+    }
+    .ring2{ animation-delay:0.45s; }
+    .ring3{ animation-delay:0.9s; }
+    @keyframes diligo-pulse{
+      0%   { transform:scale(0.35); opacity:0.9; }
+      70%  { opacity:0.15; }
+      100% { transform:scale(1.15); opacity:0; }
+    }
+    @media (prefers-reduced-motion: reduce){
+      .ring, .ring2, .ring3{ animation:none; transform:scale(0.75); opacity:0.5; }
+    }
+  </style>
+  <circle class="dot" cx="24" cy="24" r="3.5"/>
+  <circle class="ring" cx="24" cy="24" r="22"/>
+  <circle class="ring ring2" cx="24" cy="24" r="22"/>
+  <circle class="ring ring3" cx="24" cy="24" r="22"/>
+</svg>

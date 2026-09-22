@@ -1,0 +1,12 @@
+<svg viewBox="0 0 320 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diligo">
+  <g transform="translate(0,8)">
+    <circle cx="24" cy="24" r="3.5" fill="#16233D"/>
+    <circle cx="24" cy="24" r="10" stroke="#0E9C97" stroke-width="2" fill="none" opacity="0.9"/>
+    <circle cx="24" cy="24" r="16" stroke="#0E9C97" stroke-width="2" fill="none" opacity="0.55"/>
+    <circle cx="24" cy="24" r="22" stroke="#0E9C97" stroke-width="2" fill="none" opacity="0.3"/>
+  </g>
+  <g transform="translate(64,0)">
+    <text x="0" y="42" font-family="'Century Gothic','Avenir Next','Futura',ui-sans-serif,sans-serif" font-size="34" font-weight="700" fill="#16233D">Dilig</text>
+    <circle cx="140" cy="26" r="12" fill="none" stroke="#0E9C97" stroke-width="3.5"/>
+  </g>
+</svg>

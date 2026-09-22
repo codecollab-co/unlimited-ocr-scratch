@@ -7,3 +7,6 @@ weights/
 # Added by cargo
 
 /target
+
+_research_refs
+.DS_Store
